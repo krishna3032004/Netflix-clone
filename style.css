@@ -1,0 +1,381 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    /* background-color: black; */
+}
+
+body {
+    background-color: black;
+    /* height: 1000px; */
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/ca6a7616-0acb-4bc5-be25-c4deef0419a7/c5af601a-6657-4531-8f82-22e629a3795e/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-size: max(1700px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    background-position: center center;
+    position: relative;
+    /* background-color: black; */
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 78vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img {
+    color: rgb(173, 7, 7);
+    position: relative;
+    z-index: 10;
+    width: 150px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.btn {
+    /* background-color:black; */
+    /* opacity: 0; */
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    border: 1px solid rgb(94, 93, 93);
+    width: 85px;
+    padding: 7px;
+    /* padding-left: 5px; */
+    position: relative;
+    z-index: 10;
+    font-weight: 700;
+    border-radius: 4px;
+    margin: 8px;
+    margin-right: 13px;
+}
+
+nav .flex {
+    margin-top: 24px;
+    margin-right: 13px;
+    display: flex;
+
+}
+
+.btn-red {
+    background-color: rgb(229, 9, 20);
+    border: 1px solid rgb(229, 9, 20);
+}
+
+.hero {
+    height: calc(100% - 62px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    /* width: 300px; */
+    /* margin: auto;    */
+    gap: 22px;
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    /* width: 1000px; */
+    /* padding: 10px 181px 36px 199px; */
+    padding: 0px 125px 0px 125px;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+    /* width: 1000px; */
+    /* padding: 10px 181px 36px 199px; */
+}
+
+.hero> :nth-child(3) {
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    /* width: 1000px; */
+    /* padding: 10px 181px 36px 199px; */
+}
+
+.Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-redget {
+    background-color: rgb(229, 9, 20);
+    border: 1px solid rgb(229, 9, 20);
+    padding: 10px 24px;
+    border-radius: 4px;
+    width: 170px;
+    font-size: 20px;
+    font-weight: 100;
+    /* text-align: center;
+    
+    */
+
+}
+
+.main input {
+    padding: 12px 12px;
+    width: 275px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgb(94, 93, 93);
+    font-size: 15px;
+    color: white;
+    border-radius: 4px;
+    /* text-align: center; */
+
+}
+
+.separation {
+    height: 8px;
+    background-color: rgb(35, 35, 35);
+    ;
+}
+
+.first {
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 122px;
+    right: 79px;
+    width: 400px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+    gap: 12px;
+    /* padding-right: 30px; */
+}
+
+section.first>div :nth-child(1) {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+
+
+
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 75vw;
+    margin: auto;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item a {
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 20px;
+    /* display: flex; */
+}
+
+.questions {
+    padding-bottom: 25px;
+}
+
+@media screen and (max-width : 900px) {
+    nav {
+        max-width: 90vw;
+        gap: 0px;
+        /* height: 50px; */
+    }
+
+    nav img {
+        width: 100px;
+        padding-left: 2px;
+    }
+
+
+
+    .hero> :first-child {
+        font-size: 30px;
+        padding: 5px;
+    }
+
+    .Center {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 20px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 15px;
+        padding: 0 10px 0 10px;
+    }
+
+    /* .main{
+       background-size: 100vw;
+   } */
+
+    .first {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+
+    .secImg img {
+        width: 305px;
+        padding-bottom: 20px;
+    }
+
+    .secImg video {
+        width: 213px;
+        left: 45px;
+        top: 86px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .footer-item {
+        width: 30vw;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .faq h2 {
+        font-size: 35px;
+    }
+
+    .faqbox {
+        font-size: 18px;
+        padding: 18px 24px 18px 24px;
+        max-width: 75vw;
+    }
+
+
+    section.first>div :nth-child(1) {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    section.first>div :nth-child(2) {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width : 335px) {
+    nav .flex {
+        flex-direction: column;
+        margin-right: 0px;
+    }
+
+    .main input {
+        width: 190px;
+
+    }
+
+    .secImg img {
+        width: 225px;
+    }
+
+    .secImg video {
+        width: 151px;
+        left: 38px;
+        top: 72px;
+    }
+}
