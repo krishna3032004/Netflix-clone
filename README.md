@@ -17,7 +17,7 @@ This project is a simple clone of the Netflix homepage, created using only HTML 
 ## Installation
 
    ```bash
-   git clone https://github.com/your-username/netflix-clone.git
+   git clone https://github.com/krishna3032004/Netflix-clone.git
    cd netflix-clone
    open index.html
    ```
