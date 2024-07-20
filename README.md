@@ -22,5 +22,3 @@ This project is a simple clone of the Netflix homepage, created using only HTML 
    open index.html
    ```
 
-## Screenshots
-
